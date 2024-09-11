@@ -32,7 +32,7 @@ const nuevaMascota:Mascotas={
     raza:"Golden",
     mostrar:()=>{
         console.log(`Hola soy ${nuevaMascota.name} y tengo
-             ${nuevaMascota} años`)
+             ${nuevaMascota.edad} años`)
     }
 }
 calcular(nuevaMascota,4)
